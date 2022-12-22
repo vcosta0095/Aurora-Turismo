@@ -1,0 +1,272 @@
+
+html{
+
+	scroll-behavior: smooth;
+}
+body{
+
+font-family: 'Montserrat Alternates', sans-serif;
+
+}
+
+header{
+ 
+	background: linear-gradient(orange, white) ;
+	padding: 20px 0;
+}
+
+.caixa{
+
+	position: relative;
+	width: 940px;
+	margin: 0 auto;
+}
+
+
+nav{
+
+	position: absolute;
+	top: 112px;
+	right: 0;
+}
+
+nav li{
+
+	display: inline;
+	padding: 0 0 0 15px;
+}
+
+nav a {
+
+	font-size: 20px;
+	color: deepskyblue;
+	font-weight: bold;
+	text-decoration: none;
+	text-transform: uppercase;
+
+
+	}
+
+nav a:hover{
+
+	font-size: 22px;
+	color: black;
+
+}
+
+nav a:active{
+
+	color: deepskyblue;
+}
+
+.conteudo-principal{
+
+	width: 940px;
+	margin: 0 auto;
+	padding: 3em 0;
+	background: #FFFFFF;
+	
+ }
+
+.titulo-principal{
+
+ 	font-size: 2em;
+ 	margin: 2em;
+ 	text-align: center;
+ 	color: deepskyblue;
+ 	clear: left;
+ }
+
+ .titulo-principal:before{
+
+ 	content: "[ ";
+ 	color: orange;
+
+ }
+
+ .titulo-principal:after{
+
+ 	content: " ]";
+ 	color: orange;
+ }
+
+.conteudo-principal p{
+
+ 	font-size: 1em;
+ 	line-height: 2em;
+ 	text-align: right;
+ 	vertical-align: top;
+ 	
+
+ }
+
+
+.imagem-principal{
+
+	width: 400px;
+	float: left;
+	border: 2px solid none;
+	border-radius: 20px;
+	
+	
+}
+
+.mapa{
+
+	width: 640px;
+	margin: 0 auto;
+}
+
+.mapa:hover{
+
+	width: 940px;
+	transition: 500ms;
+
+}
+
+.titulo-localização{
+
+	font-size: 2em;
+	padding: 2em 0;
+	text-align: center;
+	color: deepskyblue;
+}
+
+.titulo-localização:before{
+
+	content: "[ ";
+	color: orange;
+}
+
+.titulo-localização:after{
+
+	content: " ]";
+	color: orange;
+}
+
+.diferenciais{
+
+	width: 640px;
+	margin: 0 auto;
+}
+.titulo-diferenciais{
+
+	font-size: 2em;
+	text-align: center;
+	padding: 2em 0;
+	color: deepskyblue;
+}
+
+.titulo-diferenciais:before{
+
+	content: "[ ";
+	color: orange;
+
+}
+
+.titulo-diferenciais:after{
+
+	content: " ]";
+	color: orange;
+}
+
+
+.lista-diferenciais{
+
+	font-size: 1em;
+	vertical-align: top;
+	width: 50%;
+	display: inline-block;
+
+}
+
+.lista-diferenciais li{
+
+	line-height: 2em;
+}
+.lista-diferenciais li:nth-child(2n + 1){
+
+	font-weight: bold;
+}
+
+.lista-diferenciais li:before{
+
+	content: "🟇";
+	padding: 0 10px;
+}
+
+.lista-diferenciais li:hover{
+
+	font-size: 1.05em;
+	transition: 600ms;
+}
+
+.imagem-diferenciais{
+
+	width: 50%;
+	float: right;
+	vertical-align: top;
+	padding: 0 0 3em 0;
+	opacity: 0.7;
+
+}
+
+.imagem-diferenciais:hover{
+
+	transition: 500ms;
+	opacity: 1.0;
+
+
+}
+
+
+.video{
+
+	width: 940px;
+	clear: right;
+	text-align: center;
+	margin: 0 auto;
+}
+
+
+footer{
+
+	background: linear-gradient(#FFFFFF, deepskyblue);
+	text-align: center;
+	padding: 30px 0;
+	clear: right;
+	padding: 2em 0
+	;
+}
+
+.copyright{
+
+	color: black;
+	font-size: 15px;
+
+}
+
+
+@media screen and (max-width: 480px){
+
+	.caixa, .conteudo-principal, .mapa, .diferenciais, .video{
+
+		width: auto;
+	}
+
+	h1{
+
+		text-align: center;
+	}
+
+	nav{
+
+		position: static;
+	}
+
+	.lista-diferenciais, .imagem-diferenciais{
+
+		width: 100%;
+		padding: 2em 0;
+	}
+}

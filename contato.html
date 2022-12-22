@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+
+<html lang="pt-br">
+<head>
+<title>Aurora Turismo</title>
+<link rel="stylesheet" href="reset.css">
+<link rel="stylesheet" href="contato.css">
+<link rel="shortcut icon" href="logo.png">
+<link href="https://fonts.googleapis.com/css2?family=Changa:wght@200&family=Montserrat+Alternates:wght@300&display=swap" rel="stylesheet">
+
+
+</head>
+
+<body>
+	<header>
+	
+		<div class="caixa">
+		
+			<h1><img src="logo.png"></h1>
+
+				<nav>
+
+					<ul>
+						<li><a href="index.html">Home</a></li>
+						<li><a href="produtos.html">Informações</a></li>
+						<li><a href="contato.html">Contato</a></li>
+					</ul>
+
+				</nav>
+
+		</div>
+
+	</header>
+
+
+<main>
+
+	<form>
+		
+		<div>
+			
+			<label for="nomeesobrenome" class="label-padrão">Nome e Sobrenome</label>
+			<input type="text" id="nomeesobrenome" class="input-padrão"  required>
+
+			<label for="telefone" class="label-padrão">Telefone</label>
+			<input type="tel" id="telefone" class="input-padrão" required placeholder="(XX) X XXXX-XXXX">
+
+			<label for="email" class="label-padrão" >Email</label>
+			<input type="email" id="email" class="input-padrão" required placeholder="usuario@mail.com">
+
+			<label for="mensagem" class="label-padrão">Mensagem</label>
+			<textarea cols="70" rows="15" class="input-padrão" required></textarea>
+
+		</div>
+
+		<fieldset>
+			<legend>Como prefere o nosso contato?</legend>
+
+			<label for="radio-whatsapp"><input type="radio" name="contato" id="radio-whatsapp" checked> Whatsapp</label>
+			<label for="radio-contato"><input type="radio" name="contato" id="radio-contato"  > Email </label>
+			<label for="radio-ligação"><input type="radio" name="contato" id="radio-ligação"> Ligação</label>
+
+		</fieldset>
+
+		<div>
+			<label class="checkbox"><input type="checkbox" checked>Gostaria de receber novidades dos nossos servições por email?</label>
+				
+		</div>
+
+		<div>
+
+			<p>Qual horário prefere ser atendido?<p> 
+			<select>
+				<option>Manhã</option>
+				<option>Tarde</option>
+				<option>Noite</option>
+			</select>
+
+		</div>
+
+		<div class="caixa-botão">
+
+		<input class="botão" type="submit" value="Enviar Formulario">
+
+		</div>
+
+	</form>
+
+	<table>
+		
+		<thead>
+			
+			<tr>
+   				 <td colspan="2" class="titulo-tabela">Horarios de Funcionamento:</td> 
+			</tr>
+			<tr>
+				<th>Dia</th>
+				<th>Horário</th>
+			</tr>
+		</thead>
+
+		<tbody>
+			<tr>
+				<td>Segunda a Sexta</td>
+				<td>8:00 - 18:00</td>
+			</tr>
+
+			<tr>
+				
+				<td>Sabado</td>
+				<td>8:00 - 12:00</td>
+			</tr>
+
+			
+		</tbody>
+
+	</table>
+</main>
+
+
+<footer>
+
+	<div>
+		
+		<h1><img src="aurora_f.png"></h1>	
+		<p class="copyright">&copy; Copyright Aurora Turismo - 2008</p>
+	</div>
+
+</footer>
+
+
+</body>
+
+<html>

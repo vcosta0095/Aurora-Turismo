@@ -1,0 +1,214 @@
+body{
+
+	font-family: 'Montserrat Alternates', sans-serif;
+}
+
+header{
+
+	background: linear-gradient(orange, #FFFFFF);
+	padding: 20px 0;
+}
+
+.caixa{
+
+	position: relative;
+	width: 940px;
+	margin: 0 auto;
+}
+
+nav {
+
+	position: absolute;
+	top: 112px;
+	right: 0;
+}
+
+nav li{
+
+	display: inline;
+	padding: 0 0 0 15px;
+}
+
+nav a {
+
+	font-size: 20px;
+	color: deepskyblue;
+	text-decoration: none;
+	text-transform: uppercase;
+	font-weight: bold;
+}
+
+nav a:hover{
+
+	font-size: 22px;
+	color: black;
+}
+
+nav a:active{
+
+	color: deepskyblue;
+}
+
+
+main{
+
+	padding: 20px 0;
+}
+
+.caixa-contato{
+
+	width: 940px;
+	position: relative;
+	margin: 0 auto;
+}	
+
+
+main li{
+
+	color: black;
+	font-size: 22px;
+
+}
+
+
+
+main{
+
+	margin: 0 auto;
+	width: 940px;
+	padding: 10px 10px;
+	
+
+}
+
+form {
+
+	padding: 50px 0;
+
+}
+
+.label-padrão{
+
+	font-size: 20px;
+	font-weight: bold;
+	padding: 5px 5px;
+}
+
+.input-padrão{
+
+	display: block;
+	margin: 20px 0;
+	padding: 10px 10px 10px 10px;
+	width: 40%;
+	border: 2px solid deepskyblue;
+	border-radius: 20px;
+	
+}
+
+
+form p, form legend{
+
+	font-size: 20px;
+	margin: 10px 0;
+	font-weight: bold;
+}
+
+form label {
+
+	display: block;
+	padding: 15px 0;
+	font-size: 20px;
+	margin: 10px 0;
+
+}
+
+.caixa-botão{
+
+	text-align: left;
+	
+}
+
+.checkbox{
+
+	padding: 20px 0;
+}
+
+
+
+.botão{
+
+	width: 40%;
+	padding: 10px 0;
+	margin: 15px 15px;
+	text-align: center;
+	border: 1px solid orange;
+	border-radius: 20px;
+	background: deepskyblue ;
+	color: white;
+	font-size: 15px;
+	font-weight: bold;
+
+}
+
+.botão:hover{
+
+	width: 45%;
+	border: 2px solid orange;
+	color: deepskyblue;
+	cursor: pointer;
+	color: white;
+	font-weight: bold;
+	font-size: 17px;
+
+}
+
+.botão:active{
+
+	background: orange;
+	color: white;
+	font-weight: bold;
+	border: 2px solid deepskyblue;
+
+}
+
+.titulo-tabela{
+
+	font-size: 18px;
+	font-weight: bold;
+	text-align: center;
+}
+
+table{
+
+	margin: 40px 25px;
+	width: 40%;
+	text-align: center;
+}
+
+tr{
+
+	font-weight: bold;
+
+}
+
+th,td{
+
+	border: 1px solid deepskyblue;
+	padding: 8px 15px;
+
+}
+
+footer{
+
+background: linear-gradient(#FFFFFF, deepskyblue);
+	text-align: center;
+	padding: 30px 0;
+}
+
+.copyright{
+
+	color: black;
+	font-size: 15px;
+
+}
+

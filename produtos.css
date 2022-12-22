@@ -1,0 +1,158 @@
+body{
+
+	font-family: 'Montserrat Alternates', sans-serif;
+}
+
+header{
+	
+	padding: 20px 0;
+	background: linear-gradient(orange,white);
+}
+
+.caixa{
+	position: relative;
+	width: 940px;
+	margin: 0 auto;
+}
+
+nav{
+	position: absolute;
+	top: 112px;
+	right: 0;
+}
+
+nav li{
+
+
+	display: inline;
+	padding: 0 0 0 15px;
+}
+
+nav a:hover{
+
+	color: black;
+	font-size: 22px;
+
+}
+
+nav a:active{
+
+	color: deepskyblue;
+}
+
+nav a{
+
+	font-size: 20px;
+	color: deepskyblue;
+	text-decoration: none;
+	text-transform: uppercase;
+	font-weight: bold;
+}
+
+main{
+
+	background: linear-gradient(white);
+	padding: 50px 0;
+}
+
+
+.informações{
+
+	width: 940px;
+	margin: 0 auto;
+	position: static;
+
+}
+
+.informações li{
+
+	display: inline-block;
+	width: 20%;
+	margin: 0 2.2%;
+	vertical-align: top;
+	border: 2px solid deepskyblue;
+	text-align: center ;
+	padding: 5px 5px;
+	border-radius: 20px;
+	box-sizing: border-box;
+
+}
+
+.informações li:hover{
+
+	border: 2.5px solid orange;
+	
+	}
+
+.informações h2{
+
+	font-size: 19px;
+	text-transform: uppercase;
+	text-decoration: none;
+	font-weight: bold;
+	color: deepskyblue;
+
+}
+
+.informações li:hover h2{
+
+	font-size: 20px;
+	color: orange;
+}
+
+.informações-principal{
+
+	font-size: 16px;
+	margin: 6px 0;
+	color: black;
+}
+
+.informações-sub{
+
+	font-size: 13px;
+	margin: 6px 0;
+	font-weight: bold;
+	color: deepskyblue;
+}
+
+.informações-preço{
+
+	font-size: 20px;
+	margin: 6px 0;
+	font-weight: bold;
+	color: black;
+	border: 2px solid deepskyblue;
+	border-radius: 20px;
+}
+
+footer{
+
+background: linear-gradient(white, deepskyblue);
+text-align: center;
+padding: 30px 0;
+}
+
+.copyright{
+
+	color: black;
+	font-size: 15px;
+
+}
+
+@media screen and(max-width: 480px){
+
+	.caixa, .nav, .informações, .copyright{
+
+		width: auto;
+	}
+
+	h1{
+
+		text-align: center;
+	}
+
+	nav{
+
+		position: static;
+	}
+}
